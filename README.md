@@ -29,3 +29,4 @@ In order for the system to operate smoothly, to meet the set objectives and mini
 •	Payment support through e-wallets for customers
 -	In Mobile POS:
 •	Used when customers pay by swiping credit/debit card
+![image](https://user-images.githubusercontent.com/91537767/220315481-12a2083f-d9af-4cd6-bb55-442867d732a9.png)
