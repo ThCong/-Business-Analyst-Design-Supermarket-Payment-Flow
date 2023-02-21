@@ -287,7 +287,7 @@ The App interface backs to home screen (auto done).
 The App system will call the App interface to inform the customer that the payment has been failed.
 The App interface show error message and back to payment screen.
 3.2.5. Security:
- ![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/91537767/220317613-9d4e7088-6c2f-4176-bfe2-288826d62ed5.png)
 
 When payment successfully, order number from local device (APP interface) send to System then send to Order database and finally send to gateway. The customer has to check security at the gateway to leave the store. The customer will scan customer code at gateway to check order processing. At the same time, the customer gives the gateway all barcode’s items in the bag. If all items in bags match order processing, gateway will return successful status to the system then to the APP interface to show the customer. Besides, the system updates order status from Not checked security to Done and updates warehouse, receipt. Else, return missing products to the system then to the APP interface to push notification to the customer. The customer can pay or not. If pay, press back to the payment screen and make the payment.
 
