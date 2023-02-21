@@ -31,7 +31,7 @@ In order for the system to operate smoothly, to meet the set objectives and mini
 •	Used when customers pay by swiping credit/debit card
 ![image](https://user-images.githubusercontent.com/91537767/220315481-12a2083f-d9af-4cd6-bb55-442867d732a9.png)
 # III.	DETAIL ANALYSIS:
-<p> 1.	Business process modeling notation (BPMN): </p>
+# 1.	Business process modeling notation (BPMN): 
 1.1. Login application:
  ![image](https://user-images.githubusercontent.com/91537767/220315911-d0461ec6-310c-491a-8286-0a78a7b996c0.png)
 - If the customer has an account, then login to the scan and payment system. On this page require customers to enter an account and password. During the input, the system will check the format of the input parameters: account, password and notify customers if they enter the wrong format. If wrong, the customer must re-enter them in the correct format.
@@ -86,7 +86,7 @@ Finally, the system will send the bank the bill information to confirm your paym
 
 The final part of this process, on this part, you will have to do some procedure to confirm your payment the last time and save it to the DB. First, the system will scan your customer code and check your code in the DB.
 After that, the system will scan the barcode`s item in your bag and check all items if it matches with your order. If everything is correct, the system will save the bill into DB and the gateway will open and you can exit the app. Or if something is wrong, the system will send you notifications and the process will be back to the payment process that ask the customer if they want to pay for the items that lacked.
-2.	Data Flow Diagram (DFD):
+# 2.	Data Flow Diagram (DFD):
 2.1. Context Diagram:
  ![image](https://user-images.githubusercontent.com/91537767/220316520-f8c018fd-08c5-4987-93d4-c92f28ccef04.png)
 
@@ -151,7 +151,7 @@ When customers leave the store, they have to check security at the gateway. They
 •	Save order number into the Receipt database.
 •	Give the inventory change to the Warehouse database to update related quantity products.
 •	If not, send the rejected order to the process Rejected order. This process will show the missing product to customer.
-3.	Usecase - Sequence Diagram:
+# 3.	Usecase - Sequence Diagram:
 3.1. Usecase:
 ![image](https://user-images.githubusercontent.com/91537767/220316676-4a74000b-3fee-432a-a130-202a5baef4f5.png)
  
